@@ -1,5 +1,5 @@
 import API from '../../lib/api';
-import loadUser from './load';
+import loadUser from '../messages/load';
 import {
   API_LOADING,
   API_READY,

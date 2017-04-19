@@ -20,10 +20,20 @@ export default StyleSheet.create({
     color: 'white',
     alignSelf: 'center'
   },
-  button: {
+  buttonPrimary: {
     height: 36,
     backgroundColor: '#48BBEC',
     borderColor: '#48BBEC',
+    borderWidth: 1,
+    borderRadius: 8,
+    marginBottom: 10,
+    alignSelf: 'stretch',
+    justifyContent: 'center'
+  },
+  buttonSecondary: {
+    height: 36,
+    backgroundColor: '#BBBBBB',
+    borderColor: '#BBBBBB',
     borderWidth: 1,
     borderRadius: 8,
     marginBottom: 10,
